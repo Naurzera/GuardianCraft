@@ -1,5 +1,0 @@
-author: Naur
-version: 1.0.2
-main: com.guardiancraft.Main
-name: GC_AddonChat
-depend: [Legendchat]
