@@ -1,0 +1,79 @@
+# Plugin feito por Naur
+# Para o servidor GuardianCraft
+# Contato: Naur#8062
+
+permissao-staff: "gc.staff"
+
+sem-money: "&cVocê não tem dinheiro suficiente para fazer isso."
+
+# Exemplo de como usa o enchantment
+# [Enchant]
+# (Pode escrever o que quiser aqui)
+# (nome do encantamento em encantamentos.yml):(nivel do encantamento)
+# (Opcional) (custo)
+item-encantado: "&aVocê encantou seu item com %enchant% %nivel% com sucesso!"
+sem-item: "&cVocê precisa ter um item na mão para encantar."
+muitos-itens: "&cVocê só pode encantar um item de cada vez."
+
+# Exemplo de como usar o repair
+# [Repair]
+# All / Hand
+# (Pode escrever o que quiser aqui)
+# (Ocpional) (custo)
+mensagem-reparou-um: "&aVocê reparou o item na sua mão com sucesso."
+mensagem-reparou: "&aVocê reparou todos os itens do seu inventário que precisavam de reparo."
+mensagem-nao-reparou: "&cNenhum item precisa de reparo."
+reparar-itens:
+  - 'SWORD'
+  - 'AXE'
+  - 'BOW'
+  - 'SHOVEL'
+  - 'HOE'
+  - 'HELMET'
+  - 'CHESTPLATE'
+  - 'LEGGINGS'
+  - 'BOOTS'
+
+# Exemplo de como usar o heal ou feed
+# [Heal] / [Feed]
+# (Pode escrever o que quiser aqui)
+# (Pode escrever o que quiser aqui)
+# (Opcional) (custo)
+msg-heal: "Ainda bem que o seu plano de saúde está em dia! Você foi curado!"
+msg-feed: "No céu tem pão? Não sei, mas com essa placa aqui você não precisa de pão!"
+
+# Exemplo de como usar sol ou chuva
+# [Weather]
+# Sol / Chuva
+# (Pode escrever o que quiser aqui)
+# (Opcional) (custo)
+mensagem-sol: "&aBom dia! O sol já nasceu lá na fazendinha..."
+mensagem-chuva: "Chove chuva chove, vem lavar essa saudade..."
+
+# Exemplo de como usar o kit
+# [Kit]
+# (Nome do kit que irá substituir %kit% no comando)
+# (Pode escrever o que quiser aqui)
+# (Opcional) (custo)
+comando-dar-kit: "darkit %kit% %player%"
+mensagem-kit: "&aVocê recebeu o kit %kit%"
+
+# Exemplo de como usar o comando
+## OPÇÃO 1
+# [Player]
+# (Comando que será executado)
+# (Pode escrever o que quiser aqui)
+# (Opcional) (custo)
+## OPÇÃO 2
+# [Console]
+# (Comando que será executado)
+# (Pode escrever o que quiser aqui)
+# (Opcional) (custo)
+
+# Exemplo de como usar o warp
+# [Warp]
+# (Nome da warp)
+# (Pode escrever o que quiser aqui)
+# (Opcional) (custo)
+
+mensagem-money-cobrado: "&aVocê pagou %money% para usar essa placa."

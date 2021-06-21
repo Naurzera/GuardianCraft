@@ -1,0 +1,9 @@
+permission: guardiancraft.staff
+
+comando-clonar: "clonarinv"
+comando-armadura: "clonararmor"
+
+msg-erro: "&cVocê tem itens em seu inventário! Remova-os antes de clonar um inventário."
+msg-erro2: "&cEsse jogador está offline ou não existe. Utilize /%comando% (nick)."
+msg-erro3: "&cDesculpe %player%, você não tem poder suficiente para usar este comando!"
+msg-sucesso: "&aItens clonados com sucesso!"
